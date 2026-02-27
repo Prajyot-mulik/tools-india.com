@@ -1,0 +1,12 @@
+# Install uv locally
+pip install uv
+
+# Generate lockfile from requirements.txt
+uv init
+uv add python-dateutil
+
+# This creates uv.lock file
+# Commit it
+git add .
+git commit -m "add uv lockfile"
+git push
