@@ -1,6 +1,6 @@
 version = 1
 revision = 3
-requires-python = ">=3.9"
+requires-python = ">=3.12"
 
 [[package]]
 name = "india-tools"
@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "python-dateutil", specifier = ">=2.9.0.post0" }]
+requires-dist = [{ name = "python-dateutil" }]
 
 [[package]]
 name = "python-dateutil"
